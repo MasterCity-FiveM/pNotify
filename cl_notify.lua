@@ -112,7 +112,7 @@ function SendNotification(options)
 
     local options = {
         type = options.type or "success",
-        layout = options.layout or "topRight",
+        layout = options.layout or "bottomCenter",
         theme = options.theme or "gta",
         text = options.text or "Empty Notification",
         timeout = options.timeout or 5000,
