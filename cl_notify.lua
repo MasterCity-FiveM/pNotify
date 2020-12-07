@@ -109,7 +109,7 @@ function SendNotification(options)
     options.animation = options.animation or {}
     options.sounds = options.sounds or {}
     options.docTitle = options.docTitle or {}
-
+    
     local options = {
         type = options.type or "success",
         layout = options.layout or "bottomCenter",
@@ -119,8 +119,8 @@ function SendNotification(options)
         progressBar = options.progressBar ~= false and true or false,
         closeWith = options.closeWith or {},
         animation = {
-            open = options.animation.open or "gta_effects_open",
-            close = options.animation.close or "gta_effects_close"
+            open = options.animation.open or "gta_effects_fade_in",
+            close = options.animation.close or "gta_effects_fade_out"
         },
         sounds = {
             volume = options.sounds.volume or 1,

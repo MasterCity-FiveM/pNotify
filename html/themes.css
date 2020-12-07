@@ -6,11 +6,12 @@
 .noty_theme__gta.noty_bar {
     margin: 4px 0;
     overflow: hidden;
-    border-radius: 1px;
+    border-radius: 4px;
     font-family: 'iransans';
     position: relative;
     height: auto;
     word-wrap: break-word;
+    text-align: center;
 }
 
 .noty_theme__gta.noty_bar .noty_body {
@@ -27,7 +28,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 1px;
+    height: 2px;
     width: 100%;
     background-color: white;
     opacity: 0.8;
@@ -36,34 +37,29 @@
 
 .noty_theme__gta.noty_type__alert,
 .noty_theme__gta.noty_type__notification {
-    background-color: rgb(40, 40, 40);
-    border-top: 2px solid #D1D1D1;
-    color: white;
+    background-color: rgba(38, 50, 56, 0.6);
+    color: #fff;
 }
 
 .noty_theme__gta.noty_type__warning {
-    background-color: rgb(40, 40, 40);
-    border-top: 2px solid #E89F3C;
-    color: white;
+    background-color: rbga(201, 49, 2, 0.6);
+    color: #fff;
 }
 
 .noty_theme__gta.noty_type__error {
-    background-color: rgb(40, 40, 40);
-    border-top: 2px solid #CA5A65;
+    background-color: rgba(183, 28, 28, 0.6);
     color: #fff;
 }
 
 .noty_theme__gta.noty_type__info,
 .noty_theme__gta.noty_type__information {
-    background-color: rgb(40, 40, 40);
-    border-top: 2px solid #7473E8;
+    background-color: rgba(40, 53, 147, 0.6);
     color: #fff;
 }
 
 .noty_theme__gta.noty_type__success {
-    background-color: rgb(40, 40, 40);
-    border-top: 2px solid #A0B55C;
     color: #fff;
+    background-color: rgba(0, 77, 64, 0.6);
 }
 
 .gta_effects_open {
